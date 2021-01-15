@@ -98,7 +98,7 @@ app.use(express.urlencoded({ extended: true }))
 
 app.use(session({
   name: app.get('session cookie name'),
-  secret: '9ps58uy9aerfah48yuaergv45he8gjae',
+  secret: process.env.SECRET,
   // Если true, сохраняет сессию, даже если она не поменялась
   resave: false,
   // Если false, куки появляются только при установке req.session
@@ -111,7 +111,7 @@ app.use(session({
 }));
 
 
-app.use(passport.initialize());
+app.use(passport.initializegit ());
 app.use(passport.session());
 passports(passport);
 
