@@ -111,7 +111,7 @@ app.use(session({
 }));
 
 
-app.use(passport.initializegit ());
+app.use(passport.initialize());
 app.use(passport.session());
 passports(passport);
 
