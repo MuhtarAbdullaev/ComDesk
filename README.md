@@ -5,7 +5,7 @@
 ### Команда разработчиков:
 - [Александра М.](https://github.com/AleksandraMakhmutova)
 - [Александр П.](https://github.com/PapakhinAV)
-- [Салман О.](https://github.com/SalmanOsmanov)
+- [Мухтар А.](https://github.com/MuhtarAbdullaev)
 - [Игорь В.](https://github.com/gavriil-volkov)
 ### Приложение возможно использовать как:
 - решение Digital Signage для сенсорного киоска
